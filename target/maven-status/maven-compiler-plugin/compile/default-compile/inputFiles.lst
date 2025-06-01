@@ -1,0 +1,7 @@
+/Applications/MAMP/htdocs/gestion-productos-agricolas-web/src/main/java/com/gpaweb/dao/ProductoAgricolaDAOMockImpl.java
+/Applications/MAMP/htdocs/gestion-productos-agricolas-web/src/main/java/com/gpaweb/dao/ProductoAgricolaDAOMySQLImpl.java
+/Applications/MAMP/htdocs/gestion-productos-agricolas-web/src/main/java/com/gpaweb/model/ProductoAgricola.java
+/Applications/MAMP/htdocs/gestion-productos-agricolas-web/src/main/java/com/gpaweb/controller/ProductoAgricolaServlet.java
+/Applications/MAMP/htdocs/gestion-productos-agricolas-web/src/main/java/com/gpaweb/util/DBUtil.java
+/Applications/MAMP/htdocs/gestion-productos-agricolas-web/src/main/java/com/gpaweb/dao/DAOFactory.java
+/Applications/MAMP/htdocs/gestion-productos-agricolas-web/src/main/java/com/gpaweb/dao/ProductoAgricolaDAO.java

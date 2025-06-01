@@ -1,0 +1,224 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f7; /* Un gris azulado claro */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinea al inicio para formularios largos */
+    min-height: 100vh;
+    padding-top: 20px; /* Espacio superior */
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Ancho máximo para pantallas grandes */
+    margin: auto;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    color: #2c3e50; /* Azul oscuro */
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+nav {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+/* Botones */
+.boton, button {
+    display: inline-flex; /* Para alinear ícono y texto */
+    align-items: center;
+    background-color: #3498db; /* Azul primario */
+    color: #fff;
+    padding: 10px 18px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-right: 8px;
+}
+.boton .icon, button .icon {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%) contrast(100%); /* Íconos blancos */
+}
+
+
+.boton:hover, button:hover {
+    background-color: #2980b9; /* Azul más oscuro */
+}
+
+.botonEditar { background-color: #2ecc71; /* Verde esmeralda */ }
+.botonEditar:hover { background-color: #27ae60; }
+
+.botonEliminar { background-color: #e74c3c; /* Rojo Alizarin */ }
+.botonEliminar:hover { background-color: #c0392b; }
+
+.boton-secundario { background-color: #95a5a6; /* Gris nube */ }
+.boton-secundario:hover { background-color: #7f8c8d; }
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #34495e; /* Azul medianoche */
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1; /* Resaltado suave al pasar el mouse */
+}
+
+.imagen-producto {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 4px;
+    object-fit: cover;
+    border: 1px solid #eee;
+}
+.no-imagen {
+    font-style: italic;
+    color: #888;
+    font-size: 0.9em;
+}
+td.acciones {
+    text-align: center;
+    white-space: nowrap; /* Evita que los botones se rompan en dos líneas */
+}
+td.acciones a, td.acciones button {
+    margin: 0 3px; /* Espacio entre botones de acción */
+    padding: 6px 10px; /* Botones de acción más pequeños */
+}
+td.acciones .icon {
+    margin-right: 0; /* Íconos sin margen en botones de tabla */
+}
+
+
+/* Formularios */
+.formulario-producto fieldset {
+    border: 1px solid #bdc3c7; /* Borde gris claro */
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+}
+
+.formulario-producto legend {
+    font-weight: bold;
+    color: #2c3e50; /* Azul oscuro */
+    padding: 0 10px;
+    font-size: 1.2em;
+}
+
+.campo-formulario {
+    margin-bottom: 18px;
+}
+
+.campo-formulario label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #555;
+}
+
+.campo-formulario input[type="text"],
+.campo-formulario input[type="number"],
+.campo-formulario textarea {
+    width: calc(100% - 24px); /* Ajuste para padding y border */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+.campo-formulario input[type="text"]:focus,
+.campo-formulario input[type="number"]:focus,
+.campo-formulario textarea:focus {
+     border-color: #3498db; /* Resaltar borde al enfocar */
+     outline: none;
+     box-shadow: 0 0 5px rgba(52, 152, 219, 0.2);
+}
+
+.campo-formulario textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+.campo-formulario small {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.85em;
+    color: #777;
+}
+
+.acciones-formulario {
+    text-align: right;
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+/* Mensajes */
+.mensaje {
+    padding: 12px 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: 1px solid transparent;
+}
+.mensaje.exito {
+    background-color: #d4edda; /* Verde claro */
+    color: #155724; /* Verde oscuro */
+    border-color: #c3e6cb;
+}
+.mensaje.error {
+    background-color: #f8d7da; /* Rojo claro */
+    color: #721c24; /* Rojo oscuro */
+    border-color: #f5c6cb;
+}
+.mensaje.info {
+    background-color: #d1ecf1; /* Azul claro */
+    color: #0c5460; /* Azul oscuro */
+    border-color: #bee5eb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #777;
+} 

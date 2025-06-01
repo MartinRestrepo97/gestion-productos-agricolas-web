@@ -1,0 +1,9 @@
+com/gpaweb/dao/DAOFactory$DAOSource.class
+com/gpaweb/dao/DAOFactory$1.class
+com/gpaweb/dao/ProductoAgricolaDAO.class
+com/gpaweb/controller/ProductoAgricolaServlet.class
+com/gpaweb/model/ProductoAgricola.class
+com/gpaweb/dao/ProductoAgricolaDAOMySQLImpl.class
+com/gpaweb/util/DBUtil.class
+com/gpaweb/dao/ProductoAgricolaDAOMockImpl.class
+com/gpaweb/dao/DAOFactory.class

@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [31/May/2025:23:59:08 -0500] "GET /gpaweb HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [31/May/2025:23:59:13 -0500] "GET /gpaweb/ HTTP/1.1" 302 - http-bio-8080-exec-3 4869
+0:0:0:0:0:0:0:1 - - [31/May/2025:23:59:18 -0500] "GET /gpaweb/productos?accion=listar HTTP/1.1" 200 905 http-bio-8080-exec-4 5027
+0:0:0:0:0:0:0:1 - - [31/May/2025:23:59:19 -0500] "GET /gpaweb/css/style.css HTTP/1.1" 200 5101 http-bio-8080-exec-5 6
+0:0:0:0:0:0:0:1 - - [31/May/2025:23:59:19 -0500] "GET /gpaweb/css/icons/add.svg HTTP/1.1" 200 198 http-bio-8080-exec-2 5
+0:0:0:0:0:0:0:1 - - [31/May/2025:23:59:24 -0500] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-6 0
+0:0:0:0:0:0:0:1 - - [31/May/2025:23:59:32 -0500] "GET /gpaweb/productos?accion=nuevo HTTP/1.1" 200 3222 http-bio-8080-exec-8 852
+0:0:0:0:0:0:0:1 - - [31/May/2025:23:59:33 -0500] "GET /gpaweb/css/icons/save.svg HTTP/1.1" 200 305 http-bio-8080-exec-9 4
+0:0:0:0:0:0:0:1 - - [31/May/2025:23:59:33 -0500] "GET /gpaweb/css/icons/cancel.svg HTTP/1.1" 200 338 http-bio-8080-exec-7 3
